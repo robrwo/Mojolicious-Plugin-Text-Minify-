@@ -1,6 +1,8 @@
 Revision history for {{ $dist->name }}:
 
 {{$NEXT}}
+  [Bug Fixes]
+  - Specify a minimum version of Text::Minify::XS.
 
 v0.2.0    2021-09-09 14:04:34+01:00 Europe/London
   [Enhancements]
