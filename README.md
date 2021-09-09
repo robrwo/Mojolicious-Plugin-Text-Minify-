@@ -4,7 +4,7 @@ Mojolicious::Plugin::Text::Minify - remove HTML intendation on the fly
 
 # VERSION
 
-version v0.1.0
+version v0.1.1
 
 # SYNOPSIS
 
