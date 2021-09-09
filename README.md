@@ -4,7 +4,7 @@ Mojolicious::Plugin::Text::Minify - remove HTML indentation on the fly
 
 # VERSION
 
-version v0.1.1
+version v0.1.2
 
 # SYNOPSIS
 
