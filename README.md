@@ -1,6 +1,6 @@
 # NAME
 
-Mojolicious::Plugin::Text::Minify - remove HTML intendation on the fly
+Mojolicious::Plugin::Text::Minify - remove HTML indentation on the fly
 
 # VERSION
 

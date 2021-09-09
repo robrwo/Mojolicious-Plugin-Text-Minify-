@@ -1,6 +1,6 @@
 package Mojolicious::Plugin::Text::Minify;
 
-# ABSTRACT: remove HTML intendation on the fly
+# ABSTRACT: remove HTML indentation on the fly
 
 use v5.16; # Mojolicious minimum version
 
