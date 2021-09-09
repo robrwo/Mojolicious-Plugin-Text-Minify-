@@ -1,6 +1,8 @@
 Revision history for {{ $dist->name }}:
 
 {{$NEXT}}
+  [Toolchain]
+  - Removed unnecessary prereqs
 
 v0.1.1    2021-09-09 13:22:04+01:00 Europe/London
   [Documentation]
