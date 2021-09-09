@@ -2,6 +2,8 @@ package Mojolicious::Plugin::Text::Minify;
 
 # ABSTRACT: remove HTML intendation on the fly
 
+use v5.16; # Mojolicious minimum version
+
 use Mojo::Base 'Mojolicious::Plugin';
 
 use Text::Minify::XS ();
