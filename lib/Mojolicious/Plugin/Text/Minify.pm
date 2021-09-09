@@ -14,6 +14,9 @@ sub register {
     my ($self, $app, $conf) = @_;
     $app->hook( after_render => sub {
         my ($c, $output, $format) = @_;
+
+        return if $c->stash->{'mojox.no-minify'};
+
         if ($format eq "html") {
             $$output = Text::Minify::XS::minify( $$output );
         }
@@ -35,6 +38,9 @@ sub register {
 
 This plugin uses L<Text::Minify::XS> to remove indentation and
 trailing whitespace from HTML content.
+
+If the C<mojox.no-minify> key in the stash is set to a true value,
+then the result will not be minified.
 
 Note that this is naive minifier which does not understand markup, so
 newlines will still be collapsed in HTML elements where whitespace is

@@ -21,6 +21,9 @@ $app->plugin("Text::Minify");
 This plugin uses [Text::Minify::XS](https://metacpan.org/pod/Text::Minify::XS) to remove indentation and
 trailing whitespace from HTML content.
 
+If the `mojox.no-minify` key in the stash is set to a true value,
+then the result will not be minified.
+
 Note that this is naive minifier which does not understand markup, so
 newlines will still be collapsed in HTML elements where whitespace is
 meaningful, e.g. `pre` or `textarea`.
