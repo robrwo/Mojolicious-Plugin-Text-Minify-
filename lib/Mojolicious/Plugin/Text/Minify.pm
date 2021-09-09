@@ -1,5 +1,7 @@
 package Mojolicious::Plugin::Text::Minify;
 
+# ABSTRACT: remove HTML intendation on the fly
+
 use Mojo::Base 'Mojolicious::Plugin';
 
 use Text::Minify::XS ();
@@ -18,3 +20,28 @@ sub register {
 }
 
 1;
+
+=head1 SYNOPSIS
+
+  # Mojolicious::Lite
+  plugin "Text::Minify";
+
+  # Mojolicious
+  $app->plugin("Text::Minify");
+
+=head1 DESCRIPTION
+
+This plugin uses L<Text::Minify::XS> to remove indentation and
+trailing whitespace from HTML content.
+
+Note that this is naive minifier which does not understand markup, so
+newlines will still be collapsed in HTML elements where whitespace is
+meaningful, e.g. C<pre> or C<textarea>.
+
+=head1 SEE ALSO
+
+L<Text::Minify::XS>
+
+L<Plack::Middleware::Text::Minify>
+
+=cut
