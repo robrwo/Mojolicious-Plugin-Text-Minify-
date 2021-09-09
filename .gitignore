@@ -1,0 +1,4 @@
+Mojolicious-*/
+Mojolicious-*.tar.gz
+.build/
+cpanfile.snapshot
