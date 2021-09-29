@@ -34,6 +34,14 @@ Note that this is naive minifier which does not understand markup, so
 newlines will still be collapsed in HTML elements where whitespace is
 meaningful, e.g. `pre` or `textarea`.
 
+# KNOWN ISSUES
+
+## Collapsed Newlines
+
+The underlying minifier does not understand markup, so newlines will
+still be collapsed in HTML elements where whitespace is meaningful,
+e.g. `pre` or `textarea`.
+
 # SEE ALSO
 
 [Text::Minify::XS](https://metacpan.org/pod/Text::Minify::XS)

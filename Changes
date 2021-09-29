@@ -5,6 +5,9 @@ Revision history for {{ $dist->name }}:
   - Included an example of making the use of the plugin dependent on
     the application mode.
 
+  - Added KNOWN ISSUES section, based on corresponding Plack
+    middleware.
+
 v0.2.1    2021-09-19 11:28:04+01:00 Europe/London
   [Bug Fixes]
   - Upgrade minimum version of Text::Minify::XS to v0.4.8 to improve

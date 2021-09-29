@@ -50,6 +50,14 @@ Note that this is naive minifier which does not understand markup, so
 newlines will still be collapsed in HTML elements where whitespace is
 meaningful, e.g. C<pre> or C<textarea>.
 
+=head1 KNOWN ISSUES
+
+=head2 Collapsed Newlines
+
+The underlying minifier does not understand markup, so newlines will
+still be collapsed in HTML elements where whitespace is meaningful,
+e.g. C<pre> or C<textarea>.
+
 =head1 SEE ALSO
 
 L<Text::Minify::XS>
