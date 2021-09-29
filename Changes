@@ -1,6 +1,8 @@
 Revision history for {{ $dist->name }}:
 
 {{$NEXT}}
+
+v0.2.2    2021-09-29 17:36:07+01:00 Europe/London
   [Documentation]
   - Included an example of making the use of the plugin dependent on
     the application mode.

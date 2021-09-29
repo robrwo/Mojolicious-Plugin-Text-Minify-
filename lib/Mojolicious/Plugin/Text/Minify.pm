@@ -8,7 +8,7 @@ use Mojo::Base 'Mojolicious::Plugin';
 
 use Text::Minify::XS v0.4.8 ();
 
-our $VERSION = 'v0.2.2';
+our $VERSION = 'v0.2.3';
 
 sub register {
     my ($self, $app, $conf) = @_;
