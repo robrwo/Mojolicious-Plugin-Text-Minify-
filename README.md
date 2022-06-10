@@ -18,7 +18,7 @@ $app->plugin("Text::Minify");
 
 # DESCRIPTION
 
-This plugin uses [Text::Minify::XS](https://metacpan.org/pod/Text::Minify::XS) to remove indentation and
+This plugin uses [Text::Minify::XS](https://metacpan.org/pod/Text%3A%3AMinify%3A%3AXS) to remove indentation and
 trailing whitespace from HTML content.
 
 If the `mojox.no-minify` key in the stash is set to a true value,
@@ -36,9 +36,9 @@ meaningful, e.g. `pre` or `textarea`.
 
 # SEE ALSO
 
-[Text::Minify::XS](https://metacpan.org/pod/Text::Minify::XS)
+[Text::Minify::XS](https://metacpan.org/pod/Text%3A%3AMinify%3A%3AXS)
 
-[Plack::Middleware::Text::Minify](https://metacpan.org/pod/Plack::Middleware::Text::Minify)
+[Plack::Middleware::Text::Minify](https://metacpan.org/pod/Plack%3A%3AMiddleware%3A%3AText%3A%3AMinify)
 
 # SOURCE
 
