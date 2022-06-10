@@ -1,6 +1,8 @@
 Revision history for {{ $dist->name }}:
 
 {{$NEXT}}
+  [Other]
+  - Removed bad rule from MANIFEST.SKIP.
 
 v0.2.2    2021-09-29 17:36:07+01:00 Europe/London
   [Documentation]
