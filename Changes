@@ -1,6 +1,10 @@
 Revision history for {{ $dist->name }}:
 
 {{$NEXT}}
+  [Bug Fixes]
+  - Upgrade minimum version of Text::Minify::XS to v0.6.2 to fix issue
+    with undef data.
+
   [Documentation]
   - Fix encoding of links in README.
 

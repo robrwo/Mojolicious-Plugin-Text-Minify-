@@ -6,7 +6,7 @@ use v5.16; # Mojolicious minimum version
 
 use Mojo::Base 'Mojolicious::Plugin';
 
-use Text::Minify::XS v0.4.8 ();
+use Text::Minify::XS v0.6.2 ();
 
 our $VERSION = 'v0.2.3';
 
