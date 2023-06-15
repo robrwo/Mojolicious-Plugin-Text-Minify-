@@ -34,6 +34,12 @@ Note that this is naive minifier which does not understand markup, so
 newlines will still be collapsed in HTML elements where whitespace is
 meaningful, e.g. `pre` or `textarea`.
 
+# SUPPORT FOR OLDER PERL VERSIONS
+
+This module requires Perl v5.16, which is the same minimum version that the current version of [Mojolicious](https://metacpan.org/pod/Mojolicious) requires.
+
+Future releases may only support Perl versions released in the last ten years.
+
 # SEE ALSO
 
 [Text::Minify::XS](https://metacpan.org/pod/Text%3A%3AMinify%3A%3AXS)

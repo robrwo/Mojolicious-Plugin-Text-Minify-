@@ -50,6 +50,12 @@ Note that this is naive minifier which does not understand markup, so
 newlines will still be collapsed in HTML elements where whitespace is
 meaningful, e.g. C<pre> or C<textarea>.
 
+=head1 SUPPORT FOR OLDER PERL VERSIONS
+
+This module requires Perl v5.16, which is the same minimum version that the current version of L<Mojolicious> requires.
+
+Future releases may only support Perl versions released in the last ten years.
+
 =head1 SEE ALSO
 
 L<Text::Minify::XS>
