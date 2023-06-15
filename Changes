@@ -4,6 +4,8 @@ Revision history for {{ $dist->name }}:
   [Toolchain]
   - Sign the distribution.
 
+  - Update MANIFEST.SKIP rules.
+
   [Documentation]
   - Update copyright year.
 
